@@ -133,6 +133,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/huawei/angler/msm_irqbalance.conf:system/etc/msm_irqbalance.conf
 
+PRODUCT_COPY_FILES += \
+    device/huawei/angler/bootanimation.zip:system/media/bootanimation.zip
+
 PRODUCT_TAGS += dalvik.gc.type-precise
 
 # This device is 560dpi.  However the platform doesn't
